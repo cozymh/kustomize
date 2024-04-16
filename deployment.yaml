@@ -20,7 +20,7 @@ spec:
       containers:
       - image: ipnginx
         name: ipnginx
-        port:
+        ports:
           - containerport: 80
         resources: {}
 status: {}
