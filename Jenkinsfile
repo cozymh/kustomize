@@ -16,7 +16,7 @@ pipeline {
 
   stages {
 
-    // 깃허브 계정으로 레포지토리를 클론한다.
+    // 깃허브 계정으로 레포지토리를 클론한다
     stage('Checkout Application Git Branch') {
       steps {
         checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: githubCredential, url: 'https://github.com/boulde/kustomize.git']]])
