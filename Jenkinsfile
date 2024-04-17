@@ -7,11 +7,11 @@ pipeline {
   environment {
     //dockerHubRegistry = 'ccamm1/demo-eks-cicd' 
     //dockerHubRegistryCredential = 'credential-dockerhub'
-    awsecrRegistry = '412144898273.dkr.ecr.ap-northeast-2.amazonaws.com/eks-demo-repo'
+    awsecrRegistry = '992382702050.dkr.ecr.ap-northeast-2.amazonaws.com/eks-demo-repo'
     awsecrRegistryCredential = 'credential-AWS-ECR'
     githubCredential = 'credential-github'
-    gitEmail = 'rkakscjstk@gmail.com'
-    gitName = 'boulde'
+    gitEmail = 'spqj0409@gmail.com'
+    gitName = 'cozymh'
   }
 
   stages {
